@@ -11,10 +11,10 @@ from tqdm import tqdm
 with open('user_scenarios_7005.json', 'r') as file:
     users = json.load(file)
 
-api_base = 'api_base'
-api_key = 'api_key '
-db_path = "path_to_local_item_database"
-data_path = "path_to_item_json_file"
+api_base = 'https://yunwu.ai'
+api_key = 'sk-4aRnoYY2rwLbNbZi71F1cV5eQJ2xLNnE4OwPXTC6YfLQhEOM'
+db_path = "faiss_db"
+data_path = "updated_item_profile"
 model_name = "path_to_bge-m3"
 user = User(base_url=api_base, api_key=api_key)
 recsys = Recsys(db_path=db_path, data_path=data_path, model_path=model_name, base_url=api_base, api_key=api_key)

@@ -1,20 +1,14 @@
 # -*- coding: utf-8 -*-
+"""推荐系统端：需求抽取、澄清、检索推荐、寒暄与多模态推荐。兼容 langchain 1.2.x（仅依赖 create_item_db）。"""
+import base64
 import json
+import os
 import random
 
 from openai import OpenAI
 from pydantic import BaseModel
 
-
 from create_item_db import ItemVector
-import os
-from langchain.chat_models import ChatOpenAI
-from langchain.schema import HumanMessage, AIMessage, SystemMessage
-from langchain.memory import ConversationBufferMemory
-from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
-from langchain.chains import ConversationChain
-from langchain.callbacks import get_openai_callback
-import base64
 
 
 def encode_image(image_path):
