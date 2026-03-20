@@ -2,7 +2,7 @@ from datasets import load_dataset
 
 # 用户评论
 dataset1 = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_review_All_Beauty", trust_remote_code=True)
-print(dataset1["full"][0])
+print(dataset1["full"][0]) 
 
 # 商品数据
 dataset2 = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_meta_All_Beauty", split="full", trust_remote_code=True)

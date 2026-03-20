@@ -1,0 +1,60 @@
+{
+  "Worn-out": [
+    "My old shoes are worn out and need replacement",
+    "The jacket has holes and is no longer presentable",
+    "My everyday sneakers have lost their cushioning",
+    "Need to replace faded and stretched-out clothes",
+    "My work bag is falling apart at the seams"
+  ],
+  "Work": [
+    "Need professional attire for an upcoming job interview",
+    "Office dress code requires more formal clothing",
+    "Starting a new job and need to refresh my wardrobe",
+    "Business trip coming up, need appropriate outfits",
+    "Promotion celebration - upgrading my work wardrobe"
+  ],
+  "Season": [
+    "Summer is coming, need lighter and breathable clothes",
+    "Winter sale - stocking up on warm layers",
+    "Transitioning to autumn, need versatile pieces",
+    "Spring cleaning - refreshing my seasonal wardrobe",
+    "Weather changed unexpectedly, need suitable attire"
+  ],
+  "Trend": [
+    "Want to try the latest fashion trend I saw online",
+    "Saw a new style on social media and want to try it",
+    "Updating my look to feel more current",
+    "Exploring a new aesthetic I've been curious about",
+    "Inspired by a celebrity look, want something similar"
+  ],
+  "Sports": [
+    "Starting a new gym routine, need proper workout gear",
+    "Training for a marathon, need running shoes",
+    "Joined a yoga class, need comfortable activewear",
+    "Planning a hiking trip, need outdoor-appropriate gear",
+    "Getting back into tennis, need sport-specific clothing"
+  ],
+  "Gifts": [
+    "Birthday gift for my best friend",
+    "Anniversary present for my partner",
+    "Holiday gift for a family member",
+    "Thank-you gift for someone who helped me",
+    "Graduation present for my niece"
+  ],
+  "Attend": [
+    "Attending a wedding next month",
+    "Job interview at a formal company",
+    "Conference where business casual is expected",
+    "Friend's engagement party",
+    "Graduation ceremony for my sibling",
+    "Formal dinner with clients",
+    "Reunion with old classmates"
+  ],
+  "Celebrate": [
+    "Celebrating a promotion with a treat for myself",
+    "Achieved a personal goal, rewarding myself",
+    "New year, new look - fresh start",
+    "Just got a bonus, splurging on something nice",
+    "Milestone birthday, upgrading my style"
+  ]
+}

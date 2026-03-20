@@ -5,6 +5,7 @@ from tqdm import tqdm
 
 with open('updated_item_profile.json', 'r') as file:
     data = json.load(file)
+
 cate = {}
 for item_id, metadata in data.items():
     categories = metadata['categories']

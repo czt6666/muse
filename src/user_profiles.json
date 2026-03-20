@@ -1,0 +1,342 @@
+[
+    {
+        "profile": "Name: Tricia Wilson, Gender: female, Age: 38, Profession: Production assistant, radio",
+        "scenario": "Tricia Wilson had been looking forward to her high school reunion for months. As the date approached, she felt a mix of excitement and anxiety. It had been years since she had seen many of her classmates, and she wanted to make a good impression. She envisioned herself walking into the venue, catching up with old friends, and reminiscing about the good old days. \n\nHowever, as she started planning her outfit, she realized that she needed the perfect pair of shoes. The reunion was set to be held at a lovely outdoor venue, and she knew she would be on her feet for most of the evening. Comfort was her top priority, but she also wanted something stylish that would complement her outfit. \n\nTricia remembered how her feet used to ache after long events in the past, and she was determined to avoid that this time. She needed shoes that would provide support and cushioning, especially since she planned to dance and mingle throughout the night. After a long day at work, she sat down with her laptop, ready to search for the ideal footwear that would keep her comfortable while still looking chic for the reunion.",
+        "requirements": "Tricia is looking for shoes that offer both comfort and support, particularly with cushioning for long wear and a stylish design suitable for a social event.",
+        "target_item": {
+            "main_category": "AMAZON FASHION",
+            "title": "SAS Women's, Relaxed Sandal",
+            "average_rating": 4.7,
+            "rating_number": 618,
+            "features": [
+                "Made in the USA",
+                "Suede sole",
+                "Heel measures approximately 1.5 inches\"",
+                "COMFY FOOTWEAR: Unwind, leave your worries behind, and simply relax and enjoy the comfort of the versatile SAS Relaxed sandal with pemium leather uppers in a casual sandal silhouette",
+                "CUSHION LININGS: It features Ultra-Puff cushioned linings that protect the foot with Super Soft topline construction eliminating harsh edges against the foot",
+                "SHOCK ABSORPTION: A broad, contoured footbed features soft Super Suede linings that molds to the natural arches and curves of your foot for maximum comfort and shock absorption",
+                "QUALITY BUILD: It offers multi-layered Tripad cushions designed to comfort all three pressure points: the inside ball, outside ball and heel for all-day support",
+                "ADJUSTABLE CLOSURE: SAS sandal features three-point adjustability with durable buckles at each strap while a shock-absorbing wide outsole contours and rebounds with every step"
+            ],
+            "description": [
+                "Unwind, leave your worries behind, and simply relax and enjoy the comfort of the versatile Relaxed sandal. Premium leather uppers in a casual sandal silhouette. Offers three-point adjustability with durable buckles at each strap. Features Ultra-Puff(TM) cushioned linings that protect the foot with Super Soft topline construction that eliminates harsh edges against the foot"
+            ],
+            "price": "188.95",
+            "images": "images_main/2.jpg",
+            "videos": {
+                "title": [],
+                "url": [],
+                "user_id": []
+            },
+            "store": "SAS",
+            "categories": [
+                "Clothing, Shoes & Jewelry",
+                "Women",
+                "Shoes",
+                "Sandals",
+                "Flats"
+            ],
+            "details": "{\"Product Dimensions\": \"10 x 15 x 6 inches; 2 Pounds\", \"Item model number\": \"1570-891\", \"Department\": \"womens\", \"Date First Available\": \"March 22, 2017\", \"Manufacturer\": \"SAS\"}",
+            "parent_asin": "B0944VG4Y4",
+            "bought_together": null,
+            "subtitle": null,
+            "author": null,
+            "new_description": "The SAS Women's Relaxed Sandal features a casual sandal silhouette crafted from premium leather uppers, designed for comfort and versatility. It includes three adjustable straps secured with durable buckles, allowing for a customized fit. The sandal is equipped with Ultra-Puff cushioned linings that provide protection and comfort, complemented by a Super Soft topline construction that eliminates harsh edges against the foot.\n\nKey features include:\n- Made in the USA\n- Suede sole\n- Approximately 1.5-inch heel\n- Broad, contoured footbed with soft Super Suede linings for shock absorption and support\n- Multi-layered Tripad cushions targeting pressure points at the inside ball, outside ball, and heel for all-day comfort\n- Shock-absorbing wide outsole that contours and rebounds with each step\n\nThis sandal is ideal for those seeking a blend of style and comfort in their footwear.",
+            "item_id": 2
+        }
+    },
+    {
+        "profile": "Name: Paula Stevens, Gender: female, Age: 38, Profession: Town planner",
+        "scenario": "As the new year approached, Paula Stevens found herself reflecting on her life and the changes she wanted to embrace. At 38, she felt it was time for a fresh start, especially after a challenging year at work as a town planner. With the holiday season behind her, she decided to plan a beach getaway with friends to celebrate the new year. The thought of sun-soaked days and laughter by the waves filled her with excitement. \n\nWhile browsing through her closet, Paula realized that her beachwear was outdated and lacked the comfort she desired. She envisioned herself lounging on the sand, feeling confident and protected from the sun's harsh rays. As she imagined the perfect beach day, she knew she needed something that would not only keep her safe from UV exposure but also allow her to move freely and comfortably. \n\nWith her trip just around the corner, Paula began searching online for stylish beach cover-ups that would meet her needs. She wanted something that would provide ample sun protection while also being easy to wear and adjust. The idea of a fashionable yet functional piece that could transition from beach to casual outings excited her. As she scrolled through various options, she felt a sense of anticipation for her upcoming adventure and the new look she was ready to embrace.",
+        "requirements": "Paula is looking for a beach cover-up that offers sun protection and comfort, specifically with features that block UV rays and allow for easy adjustment.",
+        "target_item": {
+            "main_category": "AMAZON FASHION",
+            "title": "BALEAF Women's Long Sleeve Zip Beach Coverup UPF 50+ Sun Protection Hooded Cover Up Shirt Dress with Pockets",
+            "average_rating": 4.2,
+            "rating_number": 422,
+            "features": [
+                "90% Polyester, 10% Spandex",
+                "Zipper closure",
+                "Machine Wash",
+                "Long sleeve sun protection coverups--UPF 50+ blocks the sun from burning",
+                "Zipped v-neckline--fashionable V neck and smooth 1/4 zipper allows to staying place as you like",
+                "Two drop-in side pockets--hold your phone or keys well\uff0cno worries of falling out",
+                "Hoodie with non-slip drawcord--Enhancing hooded design is convenient to wrap your face and enough space to put your head and hair easily",
+                "A flattering coverups company you spend all day on the beach\uff0ctraveling with lovers or busying around house. Recommended For everyday leisure or daily exercise"
+            ],
+            "description": [],
+            "price": "31.99",
+            "images": "images_main/0.jpg",
+            "videos": {
+                "title": [
+                    "Women's UPF 50+ Front Zip Beach Coverups with Pockets",
+                    " Women's Swim Cover Up Dress"
+                ],
+                "url": [
+                    "https://www.amazon.com/vdp/0041f3df9f604577bd982078c9f3fec2?ref=dp_vse_rvc_0",
+                    "https://www.amazon.com/vdp/0222bb314b16471a8b43f19080358fdc?ref=dp_vse_rvc_1"
+                ],
+                "user_id": [
+                    "",
+                    ""
+                ]
+            },
+            "store": "BALEAF",
+            "categories": [
+                "Clothing, Shoes & Jewelry",
+                "Women",
+                "Clothing",
+                "Swimsuits & Cover Ups",
+                "Cover-Ups"
+            ],
+            "details": "{\"Department\": \"womens\", \"Date First Available\": \"April 3, 2022\"}",
+            "parent_asin": "B09X1MRDN6",
+            "bought_together": null,
+            "subtitle": null,
+            "author": null,
+            "new_description": "The BALEAF Women's Long Sleeve Zip Beach Coverup is a stylish and functional garment designed for sun protection and comfort. Made from a blend of 90% polyester and 10% spandex, it offers a lightweight and stretchy fit. \n\nKey features include:\n- **UPF 50+ Sun Protection**: Effectively blocks harmful UV rays, making it ideal for beach outings.\n- **Zipper Closure**: The fashionable V-neck design features a smooth 1/4 zipper that can be adjusted for comfort.\n- **Long Sleeves**: Provides additional coverage and protection from the sun.\n- **Two Drop-in Side Pockets**: Conveniently designed to hold essentials like a phone or keys securely.\n- **Hoodie with Non-slip Drawcord**: Enhances the hooded design, allowing for easy adjustment and a comfortable fit for the head and hair.\n\nThis coverup is perfect for everyday leisure, beach trips, or casual outings, making it a versatile addition to any wardrobe.",
+            "item_id": 0
+        }
+    },
+    {
+        "profile": "Name: Steven Moore, Gender: male, Age: 68, Profession: Financial trader",
+        "scenario": "As Steven Moore sat in his cozy study, the soft glow of the afternoon sun filtering through the window, he felt a wave of nostalgia wash over him. It was almost time to celebrate another anniversary with his beloved partner, and he wanted to make it special. They had shared countless memories over the years, from quiet evenings at home to extravagant celebrations with friends. This year, he wanted to surprise her with something truly memorable. \n\nHe recalled the last anniversary when she had worn that stunning dress to their dinner, how her eyes sparkled with joy and how she had twirled around, laughing as the fabric flowed gracefully around her. That moment had been etched in his mind, and he wanted to recreate that magic. \n\nAs he browsed through various online stores, he found himself drawn to dresses that featured elegant designs, something that would make her feel as beautiful as she did that night. He knew she loved lace, and the thought of her in a dress that had a flattering silhouette made his heart race. He imagined how she would look in a dress that not only highlighted her figure but also provided comfort throughout the evening. \n\nWith the anniversary dinner approaching, he felt a sense of urgency. He wanted to ensure that whatever he chose would be perfect for the occasion, something that would make her feel cherished and adored. The anticipation of seeing her face light up with delight fueled his determination to find the right gift, and he continued to explore options that would meet his vision of elegance and comfort.",
+        "requirements": "Elegant design and comfortable fit.",
+        "target_item": {
+            "main_category": "AMAZON FASHION",
+            "title": "Chowsir Women Fashion V-Neck Formal Lace Evening Party Prom Midi Dress",
+            "average_rating": 4.3,
+            "rating_number": 127,
+            "features": [
+                "Lace",
+                "Zipper closure",
+                "Made of Lace, soft and comfortable fabric.",
+                "S=US 2, M=US 6, L=US 10, XL=US 14, XXL=US 18. Please read our Size Table image instead of the size chart.",
+                "Vintage, elgant, slim fit.",
+                "Belt decoration, zipper on back.",
+                "Suit for wedding, party, cocktail, prom, gala, evening, dating."
+            ],
+            "description": [
+                "Size Table:",
+                "Chowsir Size-----General Size----US Size-------Bust--------Waist----- Length",
+                "Small---------------------XS---------------2-------------33.5\"-------27.2\"-------39.9\"",
+                "Medium------------------S ----------------6-------------35.4\"-------29.1\"-------39.4\"",
+                "Large---------------------M---------------10-------------37.4\"-------31.1\"-------39.8\"",
+                "X-Large------------------L----------------14-------------40.6\"-------33.7\"-------40.6\"",
+                "XX-Large----------------XL--------------18-------------43.7\"-------36.2\"-------41.3\"",
+                "Note:",
+                "(1): Please check the size table carefully.",
+                "(2): 1-2cm tolerance is acceptable by different measurement method."
+            ],
+            "price": "22.19",
+            "images": "images_main/8.jpg",
+            "videos": {
+                "title": [],
+                "url": [],
+                "user_id": []
+            },
+            "store": "Chowsir",
+            "categories": [
+                "Clothing, Shoes & Jewelry",
+                "Women",
+                "Clothing",
+                "Dresses",
+                "Formal"
+            ],
+            "details": "{\"Department\": \"womens\", \"Date First Available\": \"March 6, 2019\"}",
+            "parent_asin": "B07PK1Z4JF",
+            "bought_together": null,
+            "subtitle": null,
+            "author": null,
+            "new_description": "The Chowsir Women Fashion V-Neck Formal Lace Evening Party Prom Midi Dress features a beautiful lace design that exudes elegance and sophistication. It has a flattering V-neckline and three-quarter length sleeves, making it suitable for various formal occasions. The dress is crafted from soft and comfortable lace fabric, ensuring a pleasant wearing experience.\n\nA key highlight is the slim fit silhouette, which accentuates the waist, complemented by a decorative belt that adds a touch of charm. The back of the dress includes a zipper closure for easy wear. The midi length falls gracefully, enhancing the overall vintage appeal of the dress. \n\nThis dress is ideal for events such as weddings, parties, cocktails, proms, galas, and evening outings. Available in multiple sizes, it caters to a range of body types, ensuring a perfect fit for everyone.",
+            "item_id": 8
+        }
+    },
+    {
+        "profile": "Name: Hannah Vasquez, Gender: female, Age: 61, Profession: Energy engineer",
+        "scenario": "Hannah Vasquez had just received the news she had been waiting for: a well-deserved promotion at work. After years of hard work as an energy engineer, she felt a wave of pride and excitement wash over her. To celebrate this milestone, she decided to treat herself to something special. As she sat in her cozy living room, sipping on her favorite herbal tea, she reflected on how her wardrobe could use a little refresh. \n\nShe thought about the upcoming company dinner where she would be showcasing her new role. It was important for her to feel confident and comfortable in her outfit, especially since she would be meeting new colleagues and reconnecting with old ones. Hannah wanted something that would provide a smooth silhouette under her dress, allowing her to feel at ease while mingling. \n\nAs she browsed online, she envisioned a piece that would not only minimize her profile but also offer the comfort she craved for a long evening of socializing. She remembered how frustrating it could be when straps slipped off her shoulders, making her feel self-conscious. With a smile, she began searching for options that would meet her needs, excited about the prospect of finding the perfect addition to her wardrobe for this celebratory occasion.",
+        "requirements": "Hannah is looking for a bra that minimizes her profile while providing comfort throughout the day.",
+        "target_item": {
+            "main_category": "AMAZON FASHION",
+            "title": "Olga Women's Sheer Leaves Minimizer Bra",
+            "average_rating": 4.1,
+            "rating_number": 828,
+            "features": [
+                "82% Nylon, 18% Lycra Elastane",
+                "Imported",
+                "Hand Wash Only",
+                "Minimizes your profile for fashion versatility",
+                "Beautiful lace detail with full microfiber lining for modesty, style and comfort",
+                "Wires that won't poke",
+                "Comfort back that prevents straps from slipping",
+                "Sides: 90 percent nylon, 10 percent elastane"
+            ],
+            "description": [
+                "Olga's sheer leaves features beautiful lace detail with full microfiber lining for modesty, style and comfort. This minimizer style provides wires that won't poke and Olga's comfort back that prevents straps from slipping off shoulders. Minimizes your profile for fashion versatility.",
+                "Olga's Sheer Leaves features beautiful lace detail with full microfiber lining for modesty, style and comfort. This minimizer style provides wires that won't poke and Olga's Comfort Back that prevents straps from slipping off shoulders. Minimizes your profile for fashion versatility."
+            ],
+            "price": "25.2",
+            "images": "images_main/15.jpg",
+            "videos": {
+                "title": [
+                    "Olga's Bra Fit Video"
+                ],
+                "url": [
+                    "https://www.amazon.com/vdp/7565f49bea3a479f8199fe3042de02ee?ref=dp_vse_rvc_0"
+                ],
+                "user_id": [
+                    ""
+                ]
+            },
+            "store": "Olga",
+            "categories": [
+                "Clothing, Shoes & Jewelry",
+                "Women",
+                "Clothing",
+                "Lingerie, Sleep & Lounge",
+                "Lingerie",
+                "Bras",
+                "Everyday Bras"
+            ],
+            "details": "{\"Is Discontinued By Manufacturer\": \"No\", \"Package Dimensions\": \"1 x 1 x 1 inches; 3.04 Ounces\", \"Item model number\": \"35519\", \"Department\": \"womens\", \"Date First Available\": \"August 8, 2005\", \"Manufacturer\": \"Olga Women's IA - Bras\"}",
+            "parent_asin": "B005IV7O0A",
+            "bought_together": null,
+            "subtitle": null,
+            "author": null,
+            "new_description": "The Olga Women's Sheer Leaves Minimizer Bra features a delicate design with beautiful lace detailing, complemented by a full microfiber lining that ensures modesty, style, and comfort. This minimizer bra is crafted from a blend of 82% nylon and 18% Lycra elastane, providing a soft and stretchy fit. The bra is designed with wires that won't poke, enhancing comfort throughout the day. It includes a Comfort Back feature that prevents the straps from slipping off the shoulders, ensuring a secure fit. The sides of the bra are made from 90% nylon and 10% elastane, contributing to its overall flexibility and support. This bra is ideal for those seeking to minimize their profile while enjoying fashion versatility. It is recommended to hand wash only and is imported.",
+            "item_id": 15
+        }
+    },
+    {
+        "profile": "Name: Julie Curtis, Gender: female, Age: 70, Profession: Education officer, environmental",
+        "scenario": "Julie Curtis sat at her kitchen table, sipping her morning tea while reviewing the agenda for the upcoming formal dinner with her clients. As an education officer with a passion for environmental issues, she often found herself in meetings that required a balance of professionalism and personal style. The dinner was particularly important; it was an opportunity to discuss new initiatives and foster relationships with key stakeholders. \n\nAs she flipped through her wardrobe, Julie felt a twinge of anxiety. She wanted to look polished and put-together, but she also needed to ensure that her outfit was practical for the evening. She recalled the last formal event she attended, where she struggled to find a suitable bag that was both stylish and functional. \n\n\"I need something that can hold my essentials without being too bulky,\" she thought, envisioning the sleek lines of a well-designed bag. \"And it has to be comfortable to carry, especially if I\u2019ll be mingling and moving around a lot.\"\n\nWith the dinner just a few days away, Julie decided it was time to find the perfect accessory that would complement her outfit and meet her needs. She opened her laptop and began browsing online, determined to find a bag that would not only enhance her look but also provide the practicality she required for the evening ahead.",
+        "requirements": "Julie needs a bag that is compact yet functional, allowing her to carry essentials comfortably while maintaining a stylish appearance.",
+        "target_item": {
+            "main_category": "AMAZON FASHION",
+            "title": "Michael Kors Cindy, Women\u2019s Cross-Body Bag",
+            "average_rating": 4.5,
+            "rating_number": 6,
+            "features": [
+                "Leather",
+                "9-1/2\" W x 5-1/4\" H x 2-1/4\" D",
+                "Interior features 1 slip pocket and 1 zip pocket",
+                "Exterior features gold- or silver-tone hardware and signature lettering",
+                "Adjustable crossbody strap with 24\"-26\" drop",
+                "Top zip closure"
+            ],
+            "description": [
+                "Adjustable crossbody strap with 24\"-26\" drop Top zip closure Exterior features gold- or silver-tone hardware and signature lettering Interior features 1 slip pocket and 1 zip pocket 9-1/2\" W x 5-1/4\" H x 2-1/4\" D"
+            ],
+            "price": "None",
+            "images": "images_main/4.jpg",
+            "videos": {
+                "title": [],
+                "url": [],
+                "user_id": []
+            },
+            "store": "Michael Kors",
+            "categories": [
+                "Clothing, Shoes & Jewelry",
+                "Women",
+                "Handbags & Wallets",
+                "Crossbody Bags"
+            ],
+            "details": "{\"Is Discontinued By Manufacturer\": \"No\", \"Product Dimensions\": \"8.66 x 3.54 x 6.69 inches; 2.1 Pounds\", \"Item model number\": \"32H4GCPC7L\", \"Department\": \"womens\", \"Date First Available\": \"June 16, 2015\", \"Manufacturer\": \"Vista Trade Finance & Services S.A.\"}",
+            "parent_asin": "B00ZQMM6BI",
+            "bought_together": null,
+            "subtitle": null,
+            "author": null,
+            "new_description": "The Michael Kors Cindy Women's Cross-Body Bag features a sleek and stylish design, crafted from high-quality leather. It measures 9-1/2 inches in width, 5-1/4 inches in height, and 2-1/4 inches in depth, making it a compact yet functional accessory. The bag is equipped with an adjustable crossbody strap that offers a drop length of 24 to 26 inches, allowing for customizable comfort.\n\nThe top zip closure ensures secure storage, while the exterior showcases elegant gold- or silver-tone hardware along with the signature Michael Kors lettering, adding a touch of sophistication. Inside, the bag is thoughtfully designed with one slip pocket and one zip pocket, providing ample organization for essentials. This crossbody bag is perfect for both casual outings and more formal occasions, combining practicality with a chic aesthetic.",
+            "item_id": 4
+        }
+    },
+    {
+        "profile": "Name: Heather Pearson, Gender: female, Age: 67, Profession: Camera operator",
+        "scenario": "As the holiday season approached, Heather Pearson found herself reflecting on the joy of giving. With her family spread out across the country, she cherished the moments they could all come together, especially during the festive gatherings. This year, she wanted to make her granddaughter's holiday extra special. Her granddaughter had recently taken up a new job that required her to be on her feet for long hours, and Heather knew how important it was for her to have comfortable footwear. \n\nOne afternoon, while flipping through a magazine, Heather stumbled upon an article about the importance of supportive shoes for those who are always on the go. It struck a chord with her, and she began to think about how her granddaughter would appreciate a gift that combined both style and comfort. \n\nHeather envisioned her granddaughter wearing a pair of sandals that not only looked good but also provided the necessary support for her busy lifestyle. She imagined her granddaughter slipping them on for a casual outing or a family gathering, feeling both fashionable and comfortable. The thought of adjustable straps that could be tailored to fit perfectly made Heather smile, knowing that her granddaughter would appreciate the thoughtfulness behind the gift. \n\nWith the holiday just around the corner, Heather decided it was time to start her search for the perfect pair of sandals that would meet her granddaughter's needs for comfort and a customizable fit. She felt excited about the prospect of finding something that would not only be a practical gift but also a stylish addition to her granddaughter's wardrobe.",
+        "requirements": "Comfort and customizable fit",
+        "target_item": {
+            "main_category": "AMAZON FASHION",
+            "title": "SAS Women's, Relaxed Sandal",
+            "average_rating": 4.7,
+            "rating_number": 618,
+            "features": [
+                "Made in the USA",
+                "Suede sole",
+                "Heel measures approximately 1.5 inches\"",
+                "COMFY FOOTWEAR: Unwind, leave your worries behind, and simply relax and enjoy the comfort of the versatile SAS Relaxed sandal with pemium leather uppers in a casual sandal silhouette",
+                "CUSHION LININGS: It features Ultra-Puff cushioned linings that protect the foot with Super Soft topline construction eliminating harsh edges against the foot",
+                "SHOCK ABSORPTION: A broad, contoured footbed features soft Super Suede linings that molds to the natural arches and curves of your foot for maximum comfort and shock absorption",
+                "QUALITY BUILD: It offers multi-layered Tripad cushions designed to comfort all three pressure points: the inside ball, outside ball and heel for all-day support",
+                "ADJUSTABLE CLOSURE: SAS sandal features three-point adjustability with durable buckles at each strap while a shock-absorbing wide outsole contours and rebounds with every step"
+            ],
+            "description": [
+                "Unwind, leave your worries behind, and simply relax and enjoy the comfort of the versatile Relaxed sandal. Premium leather uppers in a casual sandal silhouette. Offers three-point adjustability with durable buckles at each strap. Features Ultra-Puff(TM) cushioned linings that protect the foot with Super Soft topline construction that eliminates harsh edges against the foot"
+            ],
+            "price": "188.95",
+            "images": "images_main/2.jpg",
+            "videos": {
+                "title": [],
+                "url": [],
+                "user_id": []
+            },
+            "store": "SAS",
+            "categories": [
+                "Clothing, Shoes & Jewelry",
+                "Women",
+                "Shoes",
+                "Sandals",
+                "Flats"
+            ],
+            "details": "{\"Product Dimensions\": \"10 x 15 x 6 inches; 2 Pounds\", \"Item model number\": \"1570-891\", \"Department\": \"womens\", \"Date First Available\": \"March 22, 2017\", \"Manufacturer\": \"SAS\"}",
+            "parent_asin": "B0944VG4Y4",
+            "bought_together": null,
+            "subtitle": null,
+            "author": null,
+            "new_description": "The SAS Women's Relaxed Sandal features a casual sandal silhouette crafted from premium leather uppers, designed for comfort and versatility. It includes three adjustable straps secured with durable buckles, allowing for a customized fit. The sandal is equipped with Ultra-Puff cushioned linings that provide protection and comfort, complemented by a Super Soft topline construction that eliminates harsh edges against the foot.\n\nKey features include:\n- Made in the USA\n- Suede sole\n- Approximately 1.5-inch heel\n- Broad, contoured footbed with soft Super Suede linings for shock absorption and support\n- Multi-layered Tripad cushions targeting pressure points at the inside ball, outside ball, and heel for all-day comfort\n- Shock-absorbing wide outsole that contours and rebounds with each step\n\nThis sandal is ideal for those seeking a blend of style and comfort in their footwear.",
+            "item_id": 2
+        }
+    },
+    {
+        "profile": "Name: Sarah Miller, Gender: female, Age: 16, Profession: Multimedia programmer",
+        "scenario": "Sarah Miller had just received a bonus from her latest project at work, and the excitement was palpable. As she sat in her room, surrounded by sketches and code, she couldn't help but think about how she wanted to treat herself. After all, it was a rare occasion to celebrate her hard work and dedication. \n\nWith her birthday coming up in a few weeks, she also felt the pressure to look her best for the small gathering she was planning with her friends. She envisioned herself in a chic outfit, but something was missing. As she browsed through her jewelry box, she realized that her collection was quite limited. \n\nShe craved something that would not only elevate her look but also offer versatility for different occasions. A set of earrings that could match her various outfits would be perfect. Plus, she had sensitive skin, so she needed something that wouldn\u2019t irritate her ears. \n\nAs she scrolled through her favorite online stores, she felt a rush of excitement at the thought of finding the perfect accessory that would complement her style and be comfortable to wear all day. The idea of having a variety of designs to choose from made her heart race. This was her moment to indulge and add a touch of elegance to her wardrobe.",
+        "requirements": "Variety and Hypoallergenic Material",
+        "target_item": {
+            "main_category": "Amazon Home",
+            "title": "12 Pairs Stud Earrings Set, Hypoallergenic CZ 316L Earrings Stainless Steel Stud Earrings Pack, Crystal Pearl Earring Ball Earrings Set Multipack Piercing Jewelry for Girls Women-Silver",
+            "average_rating": 4.0,
+            "rating_number": 1,
+            "features": [
+                "Earring Sets for Multiple Piercing: 12 pairs a set of earrings varies from tiny earrings to large earrings, suitable for women and girls. Different sizes of shapes, meet your daily needs at different occasions.",
+                "Hypoallergenic Stainless Steel Earrings: This silver/gold stud earrings is made of 316L stainless steel which is a great piercing jewelry for sensitive skin. High polished and smooth surface comfortable to wear it.",
+                "Classic stud earrings design with dazzling diamond stone, looks gorgeous and luxurious. Matching your various wearing style. Perfect for wedding, engagement, anniversary, graduation, party, prom, etc.",
+                "Perfect gift: These stud earrings packs is a good gift for girlfriend, wife, mother or friends on Birthday, Anniversaries, Valentine\u2019s Day, Christmas Day, Thanksgiving Day etc.",
+                "Service: If you are not satisfied with our stud earrings, we offer money back and exchange guarantee. If you have any questions, please feel free to contact us."
+            ],
+            "description": [
+                "Color: Sliver/Gold Material: 316L Stainless Steel Nickel Free and Allergy-Free ears stud, Hypoallergenic Earrings Styles: Triangle earrings, pearl earrings, heart-shaped earrings, round ball earrings, cubic zircon earrings Package: 12 Pairs Stud Earring Set Notes:  1. Keep them away from solvents or chemicals like perfume or soap.  2. Wipe them dry with towel if wet."
+            ],
+            "price": "None",
+            "images": "images_main/13.jpg",
+            "videos": {
+                "title": [],
+                "url": [],
+                "user_id": []
+            },
+            "store": "QLKILYR",
+            "categories": [
+                "Clothing, Shoes & Jewelry",
+                "Girls",
+                "Jewelry",
+                "Earrings",
+                "Stud"
+            ],
+            "details": "{\"Product Dimensions\": \"3.4 x 2.6 x 0.7 inches\", \"Item Weight\": \"0.317 ounces\", \"Department\": \"girls\", \"Manufacturer\": \"QLKILYR\", \"Item model number\": \"005\", \"Best Sellers Rank\": {\"Clothing, Shoes & Jewelry\": 4181952, \"Girls' Stud Earrings\": 7018}, \"Date First Available\": \"August 12, 2022\"}",
+            "parent_asin": "B0B9H7YN3L",
+            "bought_together": null,
+            "subtitle": null,
+            "author": null,
+            "new_description": "The product is a 12 Pairs Stud Earrings Set designed for women and girls, featuring a variety of styles and shapes. The earrings are made from hypoallergenic 316L stainless steel, ensuring they are nickel-free and suitable for sensitive skin. The set includes different designs such as triangle, pearl, heart-shaped, round ball, and cubic zirconia earrings, all in a silver color.\n\nKey features include:\n- **Variety**: The set contains 12 pairs of earrings, ranging from tiny to larger sizes, catering to different occasions and personal styles.\n- **Hypoallergenic Material**: Crafted from high-polished stainless steel, these earrings are comfortable to wear and safe for those with allergies.\n- **Elegant Design**: Each pair features a classic stud design, often adorned with dazzling diamond-like stones, making them suitable for formal events like weddings, engagements, and parties.\n- **Gift-Ready**: This earring set is an ideal gift for special occasions such as birthdays, anniversaries, and holidays.\n- **Customer Satisfaction**: The product comes with a money-back and exchange guarantee, ensuring customer satisfaction.\n\nOverall, this earrings set is a versatile and stylish addition to any jewelry collection.",
+            "item_id": 13
+        }
+    }
+]

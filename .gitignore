@@ -1,3 +1,7 @@
+.idea
+
 /data
 /prompt-branch
-.idea
+
+*.jpg 
+*.jpeg

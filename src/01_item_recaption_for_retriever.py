@@ -56,50 +56,27 @@ def download_image(url, save_path):
 
 data = load_dataset("McAuley-Lab/Amazon-Reviews-2023", "raw_meta_Clothing_Shoes_and_Jewelry", split="full[:20]", trust_remote_code=True)
 
-# os.makedirs("images_main", exist_ok=True)
-# new_descriptions = {}
-# for id, item in tqdm(enumerate(data)):
-#     image_url = _get_first_image_url(item)
-#     if not image_url:
-#         continue
-#     save_path = f"images_main/{id}.jpg"
-#     download_image(image_url, save_path)
-#     text_information = f"Title:{item['title']}; Description: {item['description']}; " \
-#                        f"Feature: {item['features']}; Categories: {item['categories']}"
-#     try:
-#         new_description = generate_product_description(text_information, save_path)
-#         new_descriptions[id] = new_description
-#     except Exception:
-#         continue
-#
-# # 直接写入（20 条测试不分段）。大批量时可用 utils.chunked_io.write_chunked / merge_chunked
-# with open("new_descriptions.json", "w", encoding="utf-8") as f:
-#     json.dump(new_descriptions, f, ensure_ascii=False, indent=4)
+os.makedirs("images_main", exist_ok=True)
+new_descriptions = {}
+for id, item in tqdm(enumerate(data)):
+    image_url = _get_first_image_url(item)
+    print(f"Downloading image {id}: {image_url}")
+    if not image_url:
+        print(f"Item {id}: No image URL found, skipping.")
+        continue
 
-# 合并 new_descriptions 到 data，输出 updated_item_profile
-def _to_serializable(obj):
-    if obj is None or isinstance(obj, (str, int, float, bool)):
-        return obj
-    if isinstance(obj, dict):
-        return {k: _to_serializable(v) for k, v in obj.items()}
-    if isinstance(obj, (list, tuple)):
-        return [_to_serializable(x) for x in obj]
-    if hasattr(obj, "tolist"):
-        return obj.tolist()
-    return str(obj)
+    image_path = f"images_main/{id}.jpg"
+    download_image(image_url, image_path)
+    text_information = f"Title:{item['title']}; Description: {item['description']}; " \
+                       f"Feature: {item['features']}; Categories: {item['categories']}"
 
+    new_description = generate_product_description(text_information, image_url)
+    item_profile = dict(item)
+    item_profile["new_description"] = new_description
+    new_descriptions[id] = item_profile
 
-if os.path.exists("new_descriptions.json"):
-    with open("new_descriptions.json", "r", encoding="utf-8") as f:
-        new_descriptions = json.load(f)
-    items = []
-    for i in range(len(data)):
-        row = _to_serializable(dict(data[i]))
-        if str(i) in new_descriptions:
-            row["new_description"] = new_descriptions[str(i)]
-        elif i in new_descriptions:
-            row["new_description"] = new_descriptions[i]
-        items.append(row)
-    with open("updated_item_profile.json", "w", encoding="utf-8") as f:
-        json.dump(items, f, ensure_ascii=False, indent=4)
+# 写入 updated_item_profile.json
+output_path = os.path.join(os.path.dirname(__file__), "updated_item_profile.json")
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(list(new_descriptions.values()), f, ensure_ascii=False, indent=2)
 
