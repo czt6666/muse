@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""与 create_item_db.py 功能相同，仅 __main__ 占位路径不同。建议统一使用 create_item_db.py。"""
+"""ItemVector: 商品向量库，供 Muse 对话推荐检索。兼容 langchain 1.2.x。"""
 import json
 import logging
 import os
@@ -7,6 +7,7 @@ import warnings
 from typing import Any, Dict, List, Optional
 
 import tenacity
+from dotenv import load_dotenv
 
 from langchain_community.embeddings.huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores.faiss import FAISS
@@ -15,6 +16,12 @@ from langchain_core.language_models.base import BaseLanguageModel
 warnings.filterwarnings("ignore")
 logger = logging.getLogger(__name__)
 
+load_dotenv()
+api_base = os.getenv("OPENAI_BASE_URL")
+api_key = os.getenv("OPENAI_API_KEY")
+db_path = os.getenv("DB_PATH")
+data_path = os.getenv("DATA_PATH")
+model_name = os.getenv("MODEL_NAME")
 
 class ItemVector:
     def __init__(self, db_path: str, model_name: str, llm: BaseLanguageModel, data_path: str = None,
@@ -42,13 +49,13 @@ class ItemVector:
             user_data = json.load(file)
         metadatas = []
         text = []
-        for user_id, data in user_data.items():
-            text.append(str(data.get('title')) + str(data.get('new_description')) + str(data.get('categories')) + str(data.get('features')) + str(data.get('description')))
+        for user_id, data in enumerate(user_data):
+            text.append(str(data.get('title', '')) + str(data.get('new_description', '')) + str(data.get('categories', '')) + str(data.get('features', '')) + str(data.get('description', '')))
             metadatas.append(
                 {
                     "item_id": user_id,
                     "title": data.get('title'),
-                    "categories": data['categories'],
+                    "categories": data.get('categories', []),
                     "description": data.get('description'),
                     "new_description": data.get('new_description'),
                     "price": data.get('price'),
@@ -79,13 +86,13 @@ class ItemVector:
         self.db = FAISS.load_local(
             folder_path=self.db_path,
             embeddings=self.embeddings,
-            allow_dangerous_deserialization=True,
+            allow_dangerous_deserialization=True,  # 1.2.x 从磁盘加载 pickle 需显式允许
         )
 
     @tenacity.retry(reraise=True, stop=tenacity.stop_after_attempt(5),
                     wait=tenacity.wait_exponential(multiplier=1, min=10, max=120))
     def search_retriever(self, query: str):
-        retriever_result = self.retriever.get_relevant_documents(query)
+        retriever_result = self.retriever.invoke(query)
         if retriever_result is None:
             return None
         if len(retriever_result) == 0:
@@ -95,10 +102,10 @@ class ItemVector:
 
 if __name__ == '__main__':
     myDB = ItemVector(
-        db_path=f"path_to_local_item_database",
-        model_name="bge-m3",
+        db_path=db_path,
+        model_name=model_name,
         llm=None,
-        data_path=f"updated_item_profile.json",
+        data_path=data_path,
         force_create=False,
         use_multi_query=False,
     )
@@ -106,5 +113,5 @@ if __name__ == '__main__':
     result = myDB.search_retriever("")
     for i in result:
         print(i.metadata)
-    print(result[0].page_content)
-    print(result[0].metadata['item_id'])
+    # print(result[0].page_content)
+    # print(result[0].metadata['item_id'])

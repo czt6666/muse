@@ -1,6 +1,6 @@
-from conv_manager import Cmanager
-from system_chat import Recsys
-from user_chat import User
+from src.chat.conv_manager import Cmanager
+from src.chat.system_chat import Recsys
+from src.chat.user_chat import User
 from tqdm import tqdm
 import json
 with open('user_profiles.json', 'r') as file:

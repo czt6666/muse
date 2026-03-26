@@ -3,9 +3,9 @@ import os
 
 from dotenv import load_dotenv
 
-from conv_manager import Cmanager
-from system_chat import Recsys
-from user_chat import User
+from src.chat.conv_manager import Cmanager
+from src.chat.system_chat import Recsys
+from src.chat.user_chat import User
 import json
 from tqdm import tqdm
 # Press Shift+F10 to execute it or replace it with your code.
@@ -29,5 +29,5 @@ for u in tqdm(users):
     try:
         cmanager.conv_process(u)
     except Exception as e:
-        print('ERRRRRRRRRRRRRRRRRRRRRRRRRROORRRRRRRRRRRRRRRR')
+        print("Error", e)
         continue
